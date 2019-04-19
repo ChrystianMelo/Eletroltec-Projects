@@ -1,23 +1,11 @@
-.jumbotron{
+.jumbotron{/*Overwrite the bootstrap' jumbotron argument; adding img background*/
 	background-image: url(../img/vitrine.jpg);
 	background-size: cover;
 	background-position: center;
 	color : #fff;
 }
-.jumbotron2{
-	padding: 2rem 1rem;
-	margin-bottom: 2rem;
-	background-color: #e9ecef;
-	border-radius: 0.3rem;
-	background-image: url(../img/sunset.jpg);
-	background-size: cover;
-	background-position: center;
-	color : #fff;
-}
-.sombra{
-text-shadow: 23px 23px 9px rgba(110, 136, 147, 1);
-}
 
+/*[BEGINNING]On houver img show info*/
 .container2 {
   position: relative;
   width: 50%;
@@ -27,28 +15,6 @@ text-shadow: 23px 23px 9px rgba(110, 136, 147, 1);
   width: 100%;
   height: auto;
 }
-
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-
-.topnav {
-  float: right;
-}
-
-.topnav2 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
-
-
 .overlay {
   position: absolute;
   top: 0;
@@ -59,15 +25,13 @@ text-shadow: 23px 23px 9px rgba(110, 136, 147, 1);
   width: 80%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(255,256,255,0.5);
+  background-color: #e0e0eb;
 }
-
 .container2:hover .overlay {
   opacity: 1;
 }
-
 .text {
-  color: black;
+  color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -77,26 +41,4 @@ text-shadow: 23px 23px 9px rgba(110, 136, 147, 1);
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
-.annimation {
-  width: 100px;
-  height: 100px;
-  background: red;
-  position: relative;
-  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
-  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-  animation: mymove 5s infinite;
-  animation-delay: 2s;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-  from {left: 0px;}
-  to {left: 200px;}
-}
-
-@keyframes mymove {
-  from {left: 0px;}
-  to {left: 200px;}
-}
+/*[END]On houver img show info */
