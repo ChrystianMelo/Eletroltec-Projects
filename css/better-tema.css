@@ -1,4 +1,5 @@
-.jumbotron{/*Overwrite the bootstrap' jumbotron argument; adding img background*/
+/*Overwrite the bootstrap' jumbotron argument; adding img background*/
+.jumbotron{
 	background-image: url(../img/vitrine.jpg);
 	background-size: cover;
 	background-position: center;
